@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<title>	simple js quiz</title>
+<link rel="stylesheet" href="./css/style.css"/>
+<script type="text/javascript" src="./js/script.js"></script>
+</head>
+<body>
+	<header>
+		<h1>simple JS Quiz</h1>
+		<p>Test your Knowledge <strong>In Javascript</strong></p>
+	</header>
+<section>
+<div id="results"></div>
+<form id="container" name="quizform" onsubmit="return submitanswer()">
+<h3>1.Javascript have how many datatypes</h3>
+<input type="radio" value="a" name="q1" id="q1a"/>a. 4<br/>
+<input type="radio" value="b" name="q1" id="q1b"/>b. 5<br/>
+<input type="radio" value="c" name="q1" id="q1c"/>c. 6<br/>
+<input type="radio" value="d" name="q1" id="q1d"/>d. 7<br/>
+<h3>2.Javascript function for timeout</h3>
+<input type="radio" value="a" name="q2" id="q1a"/>setTimeout(function(),duration)<br/>
+<input type="radio" value="b" name="q2" id="q1b"/>setTimeout(function())<br/>
+<input type="radio" value="c" name="q2" id="q1c"/>setTimeout(duration,function(){})<br/>
+<input type="radio" value="d" name="q2" id="q1d"/>none<br/>
+<h3>3.Inside which HTML element do we put the JavaScript?</h3>
+<input type="radio" value="a" name="q3" id="q1a"/>&lt script &gt<br/>
+<input type="radio" value="b" name="q3" id="q1b"/>&lt sc &gt<br/>
+<input type="radio" value="c" name="q3" id="q1c"/>&lt scr &gt<br/>
+<input type="radio" value="d" name="q3" id="q1d"/>&lt scrip &gt<br/>
+<h3>4. What is the correct JavaScript syntax to change the content of the HTML element below?
+<p id="demo">This is a demonstration.</p>
+</h3>
+<input type="radio" value="a" name="q4" id="q1a"/>document.getElementByName("p").innerHTML = "Hello World!";<br/>
+<input type="radio" value="b" name="q4" id="q1b"/>#demo.innerHTML = "Hello World!";
+<br/>
+<input type="radio" value="c" name="q4" id="q1c"/> document.getElement("p").innerHTML = "Hello World!";<br/>
+<input type="radio" value="d" name="q4" id="q1d"/>document.getElementById("demo").innerHTML = "Hello World!";
+<br/>
+<input type="submit" name="submit">
+</form>
+</section>
+
+
+<footer>
+<p>Copyright &copy;2014, All RightReserved</p>	
+</footer>
+
+</body>
+
+
+</html>

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AddEvent.com v1.6//EN
+BEGIN:VEVENT
+DTSTAMP:20160926T095118Z
+STATUS:CONFIRMED
+UID:1474883478@addevent.com
+DTSTART:20161001T120000
+DTEND:20161002T230000
+SUMMARY:Cognizant UI Developer Hiring Challenge
+DESCRIPTION:Today a convergence of new technologies—automation\, the sensor-enabled world\, AI\, platforms\, 3-D printing\, etc.—as well as shifting demographics\, expectations\, and regulation are creating a context for a new age of business. \nCognizant Digital Works brings together digital strategy ...\n\n---\nEvent built with AddEvent.com
+X-ALT-DESC;FMTTYPE=text/html:Today a convergence of new technologies—automation, the sensor-enabled world, AI, platforms, 3-D printing, etc.—as well as shifting demographics, expectations, and regulation are creating a context for a new age of business. <br>Cognizant Digital Works brings together digital strategy ...<br><br>---<br>Event built with AddEvent.com
+LOCATION:https://www.hackerearth.com/cognizant-ui-developer-hiring-challenge/
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

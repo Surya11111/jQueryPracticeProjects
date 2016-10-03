@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin:10 0;
+}
+header{
+background-color: #aaa;
+	font-weight: bold;
+	text-align:center;
+	font-size: 190%;
+}
+
+
+body{
+	font-family: 'Tahoma',sans-serif;
+	color: #666;
+	font-size:16px;
+	background-color: #f9f9f9;
+	line-height: 1.6em;
+}
+
+ul,li{
+	text-decoration: none;
+}
+
+#container{
+	width: 60%;
+	margin: 30px auto;
+	overflow: auto;
+}
+
+.q{
+	background-color: #eee;
+	font-weight: bold;
+	font-size:120%;
+	border-bottom: 1px #ddd solid;
+	cursor: pointer;
+}
+
+.a{
+	background:#ddd;
+	display:none;
+}
+
+.rotate{
+	transform: rotate(90deg);
+}
